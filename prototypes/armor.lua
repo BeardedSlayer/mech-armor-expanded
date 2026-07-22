@@ -5,6 +5,7 @@ local mech2 = table.deepcopy(data.raw["armor"]["mech-armor"])
 mech2.name = "mech-armor-mk2"
 mech2.equipment_grid = "mech-armor-mk2-equipment-grid"
 mech2.inventory_size_bonus = 60
+mech2.belt_immunity = true
 
 -- =========================================
 -- БРОНЯ MK3
@@ -13,6 +14,7 @@ local mech3 = table.deepcopy(data.raw["armor"]["mech-armor"])
 mech3.name = "mech-armor-mk3"
 mech3.equipment_grid = "mech-armor-mk3-equipment-grid"
 mech3.inventory_size_bonus = 100
+mech2.belt_immunity = true
 mech3.resistances = {
   { type = "physical", decrease = 15, percent = 50 },
   { type = "acid", decrease = 15, percent = 60 },
@@ -27,6 +29,7 @@ local mech4 = table.deepcopy(data.raw["armor"]["mech-armor"])
 mech4.name = "mech-armor-mk4"
 mech4.equipment_grid = "mech-armor-mk4-equipment-grid"
 mech4.inventory_size_bonus = 150
+mech2.belt_immunity = true
 mech4.resistances = {
   { type = "physical", decrease = 30, percent = 70 },
   { type = "acid", decrease = 30, percent = 80 },
