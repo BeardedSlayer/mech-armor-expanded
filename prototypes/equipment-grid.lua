@@ -2,19 +2,19 @@ local grids = {
   {
     type = "equipment-grid",
     name = "mech-armor-mk2-equipment-grid",
-    width = 18, height = 18,
+    width = 10, height = 16,
     equipment_categories = {"armor"}
   },
   {
     type = "equipment-grid",
     name = "mech-armor-mk3-equipment-grid",
-    width = 22, height = 22,
+    width = 10, height = 18,
     equipment_categories = {"armor"}
   },
   {
     type = "equipment-grid",
     name = "mech-armor-mk4-equipment-grid",
-    width = 26, height = 26,
+    width = 10, height = 20,
     equipment_categories = {"armor"}
   }
 }

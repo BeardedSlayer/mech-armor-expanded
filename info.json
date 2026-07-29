@@ -1,13 +1,17 @@
 {
   "name": "mech-armor-expanded",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "title": "Mech Armor Expanded (MK2 - MK4)",
   "author": "BeardedSlayer",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
     "space-age >= 2.0.0",
-    "Power Armor MK3 >= 1.0.0" 
+    "Power Armor MK3 >= 1.0.0",
+    "? Cold_biters",
+    "? Explosive_biters",
+    "? Toxic_biters",
+    "? skewer_shattered_planet"
   ],
   "description": "Adds advanced tiers of Mech Armor (MK2, MK3, MK4) with expanded equipment grids and enhanced resistances, designed to surpass Power Armor tiers."
 }

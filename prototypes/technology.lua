@@ -23,7 +23,7 @@ local tech_mech2 = {
       {"agricultural-science-pack", 1},
       {"electromagnetic-science-pack", 1}
     },
-    time = 45
+    time = 60
   }
 }
 
@@ -53,7 +53,7 @@ local tech_mech3 = {
       {"agricultural-science-pack", 1},
       {"cryogenic-science-pack", 1}
     },
-    time = 45
+    time = 60
   }
 }
 
@@ -87,5 +87,11 @@ local tech_mech4 = {
     time = 60
   }
 }
+
+local shattered_planet_tech = "promethium_plate"
+
+if data.raw.technology[shattered_planet_tech] then
+  table.insert(tech_mech4.prerequisites, shattered_planet_tech)
+end
 
 data:extend({tech_mech2, tech_mech3, tech_mech4})
