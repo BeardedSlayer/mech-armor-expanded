@@ -1,0 +1,59 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-10-27
+  Major Features:
+    - Removed hard dependency on Power Armor MK3 and Space Age. The mod now works standalone with the base game as well as with Space Age.
+    - Added dynamic recipes, technology trees, and localization that automatically adapt based on whether Space Age is enabled.
+  Compatibility:
+    - Added full compatibility with Krastorio 2 and Krastorio 2 Spaced Out (K2SO).
+    - Preserved optional integration with Power Armor MK3 (restores classic recipes and tech prerequisites when installed).
+    - Added poison resistance to all armor tiers for better synergy with Toxic Biters and vanilla capsules.
+  Changes:
+    - Rebalanced Space Age technology prerequisites and crafting ingredients for MK2, MK3, and MK4 to strictly follow planetary progression (Fulgora -> Aquilo -> Promethium).
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2026-10-25
+  Changes:
+    - Updated factorio_version to 2.1.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2026-07-29
+  Features:
+    - Dynamic Damage Compatibility: The mod now automatically detects custom damage types from other mods (e.g., cold and frost from custom biter mods) and dynamically assigns appropriate resistances to MK3 and MK4 armors on startup.
+    - Smart Mod Integration (O Shattered Planet): Added seamless integration without hard dependencies. If the mod is detected, the MK4 recipe automatically switches to require prometheum plate and updates the technology prerequisites accordingly.
+    - Lore-Accurate Assembly: Added strict environmental conditions for crafting. MK2 now requires the intense electromagnetic atmosphere of Fulgora, and MK4 assembly is strictly locked to zero-gravity environments.
+  Balancing:
+    - Complete Grid Rebalance (Legendary+ UI Fix): Redesigned all equipment grids to vertical rectangles. This mathematically ensures that even at Legendary+ quality, the massive UI window will not overflow standard screens at 100% UI scale. Base grids are now: MK2 (10x16), MK3 (10x18), and MK4 (10x20).
+    - Hardcore Resistance Overhaul: Scaled back MK4 absolute immunities from 100% to a maximum of 95% for realistic wear-and-tear. The armor now acts as the ultimate physical hull that absorbs extreme shock only after energy shields collapse.
+  Bugfixes:
+    - Kinetic Impact Vulnerability: Added impact resistance scaling across all tiers (up to 95% on MK4) to prevent instant one-shots from massive kinetic forces (like Territorial Demolishers) bypassing energy shields.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-07-22
+  Changes:
+    - Localization Updates: Rolled back belt immunity mentions from English and Russian localization files to accurately reflect the vanilla equipment grid mechanics.
+  Bugfixes:
+    - Code Cleanup: Removed experimental belt_immunity code that was not supported by the game engine for armor items.
+    - Package Optimization: Removed the hidden .git folder from the release archive, significantly reducing the mod's file size.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-07-21
+  Features:
+    - Full Science Pack Support: Integrated Agricultural Science Packs (agricultural-science-pack) from Gleba into all research tiers (MK2, MK3, MK4).
+    - Base Game Science Support: Added Military (military-science-pack), Production (production-science-pack), and Utility (utility-science-pack) science packs to tech requirements.
+    - Mod Compatibility & Progression: Linked MK3 and MK4 research prerequisites directly to the Power Armor MK3 mod technologies (pamk3-pamk3 and pamk3-pamk4).
+  Balancing:
+    - Recipe Rebalance (MK2): Added 75x Tungsten Carbide (tungsten-carbide) to the MK2 crafting recipe to reinforce interplanar logistics between Vulcanus and Fulgora.
+  Bugfixes:
+    - Technology Trees: Fixed missing research prerequisites, ensuring a smooth progression path from Power Armors to Mech Armors.
+    - Dependencies: Corrected dependency references in info.json for proper load order in Factorio.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-07-21
+  Major Features:
+    - Initial Release.
+    - Added Mech Armor MK2 (18x18 grid, enhanced inventory).
+    - Added Mech Armor MK3 (22x22 grid, high resistances, zero-g assembly in Cryogenic Plant).
+    - Added Mech Armor MK4 (26x26 ultimate grid, Promethium-powered, 100% Fire Immunity).
+    - Full localized strings support (English and Russian).
+    - Source code released under the MIT License.
