@@ -1,9 +1,9 @@
 {
 "name": "mech-armor-expanded",
-"version": "1.2.0",
+"version": "1.2.1",
 "title": "Mech Armor Expanded (MK2 - MK4)",
 "author": "BeardedSlayer",
-"factorio_version": "2.0",
+"factorio_version": "2.1",
 "dependencies": [
 "base >= 2.0.0",
 "? space-age >= 2.0.0",

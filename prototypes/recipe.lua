@@ -11,7 +11,7 @@ if has_space_age then
     name = "mech-armor-mk2",
     enabled = false,
     energy_required = 30,
-    category = "electromagnetics",
+    categories = {"electromagnetics"},
     surface_conditions = {
       { property = "magnetic-field", min = 99 }
     },
@@ -30,7 +30,7 @@ if has_space_age then
     name = "mech-armor-mk3",
     enabled = false,
     energy_required = 60,
-    category = "cryogenics",
+    categories = {"cryogenics"},
     surface_conditions = {
       { property = "gravity", min = 0, max = 0 }
     },
@@ -49,7 +49,7 @@ if has_space_age then
     name = "mech-armor-mk4",
     enabled = false,
     energy_required = 120,
-    category = "cryogenics",
+    categories = {"cryogenics"},
     surface_conditions = {
       { property = "gravity", min = 0, max = 0 }
     },
@@ -94,7 +94,7 @@ else
     name = "mech-armor-mk2",
     enabled = false,
     energy_required = 30,
-    category = "crafting",
+    categories = {"crafting"},
     ingredients = {
       {type = "item", name = "power-armor-mk2", amount = 1},
       {type = "item", name = "processing-unit", amount = 100},
@@ -110,7 +110,7 @@ else
     name = "mech-armor-mk3",
     enabled = false,
     energy_required = 60,
-    category = "crafting",
+    categories = {"crafting"},
     ingredients = {
       {type = "item", name = "mech-armor-mk2", amount = 1},
       {type = "item", name = "processing-unit", amount = 200},
@@ -127,7 +127,7 @@ else
     name = "mech-armor-mk4",
     enabled = false,
     energy_required = 120,
-    category = "crafting",
+    categories = {"crafting"},
     ingredients = {
       {type = "item", name = "mech-armor-mk3", amount = 1},
       {type = "item", name = "processing-unit", amount = 500},

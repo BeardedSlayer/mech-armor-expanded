@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2026-10-27
+  Compatibility:
+    - Updated for Factorio 2.1 (migrated recipe crafting categories to the new 2.1 array format for full compatibility with the built-in recycler mod).
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2026-10-27
   Major Features:
